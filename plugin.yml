@@ -1,0 +1,14 @@
+name: HCFSets
+main: hcfsets\Main
+author: JackNoordhuis
+version: 0.0.1_ALPHA
+api: 3.0.0-ALPHA3
+
+permissions:
+  hcfsets:
+    description: "HCFSets master permission"
+    default: op
+    children:
+      hcfsets.set:
+        description: "HCFSets master permission"
+        default: op

@@ -1,0 +1,281 @@
+{
+  "bard": {
+    "display": "&eBard",
+    "armor": {
+      "helmet": {
+        "id": "gold_helmet",
+        "allows-enchantments": false
+      },
+      "chestplate": {
+        "id": "gold_chestplate",
+        "allows-enchantments": false
+      },
+      "leggings": {
+        "id": "gold_leggings",
+        "allows-enchantments": false
+      },
+      "boots": {
+        "id": "gold_boots",
+        "allows-enchantments": false
+      }
+    },
+    "buffs": [
+      {
+        "id": "night_vision",
+        "amplifier": 0
+      },
+      {
+        "id": "haste",
+        "amplifier": 1
+      }
+    ],
+    "held-item-buffs": {
+      "magma_cream": [
+        {
+          "id": "fire_resistance",
+          "amplifier": 0
+        }
+      ],
+      "blaze_rod": [
+        {
+          "id": "strength",
+          "amplifier": 0
+        }
+      ],
+      "golden_carrot": [
+        {
+          "id": "night_vision",
+          "amplifier": 0
+        }
+      ],
+      "ghast_tear": [
+        {
+          "id": "regeneration",
+          "amplifier": 0
+        }
+      ],
+      "sugar": [
+        {
+          "id": "swiftness",
+          "amplifier": 1
+        }
+      ],
+      "feather": [
+        {
+          "id": "jump",
+          "amplifier": 0
+        }
+      ]
+    },
+    "item-interact-buffs": {
+      "blaze_rod": [
+        {
+          "id": "strength",
+          "amplifier": 2,
+          "duration": 3,
+          "cooldown": 300,
+          "targets": [
+            "faction"
+          ]
+        }
+      ],
+      "iron_ingot": [
+        {
+          "id": "damage_resistance",
+          "amplifier": 6,
+          "duration": 5,
+          "cooldown": 300,
+          "targets": [
+            "faction"
+          ]
+        }
+      ],
+      "feather": [
+        {
+          "id": "jump",
+          "amplifier": 4,
+          "duration": 10,
+          "cooldown": 300,
+          "targets": [
+            "self"
+          ]
+        }
+      ],
+      "sugar_cane": [
+        {
+          "id": "swiftness",
+          "amplifier": 3,
+          "duration": 5,
+          "cooldown": 300,
+          "targets": [
+            "faction",
+            "self"
+          ]
+        }
+      ],
+      "glistening_melon": [
+        {
+          "id": "regeneration",
+          "amplifier": 0,
+          "duration": 5,
+          "cooldown": 300,
+          "targets": [
+            "faction"
+          ]
+        }
+      ],
+      "slime_ball": [
+        {
+          "id": "slowness",
+          "amplifier": 0,
+          "duration": 10,
+          "cooldown": 300,
+          "targets": [
+            "enemy"
+          ]
+        }
+      ],
+      "sugar": [
+        {
+          "id": "swiftness",
+          "amplifier": 3,
+          "duration": 10,
+          "cooldown": 300,
+          "targets": [
+            "faction",
+            "self"
+          ]
+        }
+      ],
+      "raw_fish": [
+        {
+          "id": "water_breathing",
+          "amplifier": 5,
+          "duration": 10,
+          "cooldown": 300,
+          "targets": [
+            "faction"
+          ]
+        }
+      ],
+      "mushroom": [
+        {
+          "id": "weakness",
+          "amplifier": 0,
+          "duration": 10,
+          "cooldown": 300,
+          "targets": [
+            "enemy"
+          ]
+        }
+      ],
+      "spider_eye": [
+        {
+          "id": "wither",
+          "amplifier": 0,
+          "duration": 5,
+          "cooldown": 300,
+          "targets": [
+            "enemy",
+            "self"
+          ]
+        }
+      ]
+    }
+  },
+  "miner": {
+    "display": "&eMiner",
+    "armor": {
+      "helmet": {
+        "id": "iron_helmet",
+        "allows-enchantments": true
+      },
+      "chestplate": {
+        "id": "iron_chestplate",
+        "allows-enchantments": true
+      },
+      "leggings": {
+        "id": "iron_leggings",
+        "allows-enchantments": true
+      },
+      "boots": {
+        "id": "iron_boots",
+        "allows-enchantments": true
+      }
+    },
+    "buffs": [
+      {
+        "id": "regeneration",
+        "amplifier": 1
+      },
+      {
+        "id": "swiftness",
+        "amplifier": 0
+      },
+      {
+        "id": "weakness",
+        "amplifier": 3
+      },
+      {
+        "id": "damage_resistance",
+        "amplifier": 1
+      }
+    ],
+    "held-item-buffs": {},
+    "item-interact-buffs": {}
+  },
+  "archer": {
+    "display": "&eArcher",
+    "armor": {
+      "helmet": {
+        "id": "leather_helmet",
+        "allows-enchantments": false
+      },
+      "chestplate": {
+        "id": "leather_chestplate",
+        "allows-enchantments": false
+      },
+      "leggings": {
+        "id": "leather_leggings",
+        "allows-enchantments": false
+      },
+      "boots": {
+        "id": "leather_boots",
+        "allows-enchantments": false
+      }
+    },
+    "buffs": [
+      {
+        "id": "swiftness",
+        "amplifier": 1
+      }
+    ],
+    "held-item-buffs": {},
+    "item-interact-buffs": {
+      "feather": [
+        {
+          "id": "jump",
+          "amplifier": 3,
+          "duration": 10,
+          "cooldown": 300,
+          "targets": [
+            "faction",
+            "self"
+          ]
+        }
+      ],
+      "sugar": [
+        {
+          "id": "swiftness",
+          "amplifier": 2,
+          "duration": 15,
+          "cooldown": 300,
+          "targets": [
+            "faction",
+            "self"
+          ]
+        }
+      ]
+    }
+  }
+}
